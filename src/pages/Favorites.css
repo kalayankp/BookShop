@@ -1,0 +1,38 @@
+/* Favorites.css */
+.favorites-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .favorite-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .favorite-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .favorite-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .favorite-item button {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .favorite-item button:hover {
+    background-color: #ff6b81;
+  }
+  
